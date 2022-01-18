@@ -4,7 +4,7 @@ My name is Felipe and I've been developing software for some years. I develop so
 
 
 - 🔭 I’m currently working at AlmostHackers
-- 🔭 I’m a prospect Computer Scientists @ Georgia Tech
+- 🔭 I’m a prospect Computer Scientist @ Georgia Tech
 - 🌱 I’m currently learning Ruby on Rails 7
 - 👯 I’m looking to collaborate on open source libraries for mobile apps or rails gems
 - 💬 Ask me about software for startup
