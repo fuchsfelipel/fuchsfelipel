@@ -10,3 +10,5 @@ My name is Felipe and I've been developing software for some years. I develop so
 - 💬 Ask me about software for startup
 - 📫 How to reach me: You can email me or send a Microsoft Teams message at [felipe@almosthackers.net](mailto:felipe@almosthackers.net)
 
+## My terminal setup
+Follow [this tutorial](https://www.freecodecamp.org/news/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156/) and install a Nerd Font.
