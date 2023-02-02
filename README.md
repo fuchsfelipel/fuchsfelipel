@@ -1,14 +1,13 @@
 ### Hi there 👋
 
-My name is Felipe and I've been developing software for some years. I develop software for startups without charging money through my company, [AlmostHackers](https://almosthackers.net). If you're interested in our services don't hesistate to email me!
+Felipe is a Tech Passionate and Georgia Tech dropout who has been acting as lead in several software projects for the past 2 years. He specializes in bringing software to market quickly for startups without charging money through his company, [AlmostHackers](https://almosthackers.net). He has done so for companies in the areas of HealthTech, FinTech, SaaS, and IoT.
+
+If you're interested in our services don't hesistate to email me!
 
 
-- 🔭 I’m currently working at AlmostHackers
-- 🔭 I’m a prospect Computer Scientist @ Georgia Tech
-- 🌱 I’m currently learning Ruby on Rails 7
+- 🔭 I’m currently working as CTO @ AlmostHackers and CTO @ Neurogram
+- 🔭 Georgia Tech Dropout
+- 🌱 I’m currently learning Software Architecure
 - 👯 I’m looking to collaborate on open source libraries for mobile apps or rails gems
-- 💬 Ask me about software for startup
-- 📫 How to reach me: You can email me or send a Microsoft Teams message at [felipe@almosthackers.net](mailto:felipe@almosthackers.net)
-
-## My terminal setup
-Follow [this tutorial](https://www.freecodecamp.org/news/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156/) and install a Nerd Font.
+- 💬 Ask me about software for startups
+- 📫 How to reach me: Send me an email!
