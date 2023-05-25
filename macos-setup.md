@@ -18,7 +18,7 @@ This document details how I setup a formatted MacBook.
 1. Install [Homebrew](https://brew.sh)
 2. Configure Git Aliases
 ```shell
-brew install coreutils libyaml git gh libpq
+brew install coreutils libyaml git gh libpq icu4c
 gh auth login
 ```
 ```shell
