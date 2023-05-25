@@ -15,10 +15,10 @@ This document details how I setup a formatted MacBook.
 > Sign in to 1Password, open Settings > Developer and setup the SSH Host. Then, click on your Git GPG key and click on the `configure` banner.
 
 ## Terminal Setup
-1. Install [Homebrew](https://brew.sh) and `brew install git`, and restart the shell.
+1. Install [Homebrew](https://brew.sh)
 2. Configure Git Aliases
 ```shell
-brew install coreutils libyaml gh
+brew install coreutils libyaml git gh libpq
 gh auth login
 ```
 ```shell
