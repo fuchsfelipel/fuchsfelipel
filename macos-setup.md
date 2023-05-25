@@ -15,7 +15,7 @@ This document details how I setup a formatted MacBook.
 > Sign in to 1Password, open Settings > Developer and setup the SSH Host. Then, click on your Git GPG key and click on the `configure` banner.
 
 ## Terminal Setup
-1. Install [Homebrew](https://brew.sh)
+1. Install [Homebrew](https://brew.sh) and `brew install git`, and restart the shell.
 2. Configure Git Aliases
 ```shell
 brew install coreutils libyaml gh
@@ -36,7 +36,7 @@ git config --global core.editor 'code --wait'
 4. Install ZSH from Homebrew
 ```shell
 brew install zsh
-chsh -s /usr/local/bin/zsh
+chsh -s /opt/homebrew/bin/zsh
 ```
 
 5. Install `OhMyZSH`, `powerlevel10k`, `ASDF`, and plugins
@@ -51,7 +51,7 @@ git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.11.3
 6. Install the Meslo Nerd Font ([instructions](https://github.com/romkatv/powerlevel10k#fonts))
 
 7. Open iTerm2:
-  - On `Window` set transparency to `20%`
+  - On `Profiles --> Window` set transparency to `15%`
   - On `Profiles` set the font to `Meslo NF`
 
 8. Copy the `.zshrc and .p10k.zsh` file in this repo into `~` and restart the terminal
