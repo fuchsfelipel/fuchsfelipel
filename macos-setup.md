@@ -65,8 +65,8 @@ asdf plugin add nodejs
 asdf install ruby latest
 asdf global ruby latest
 
-asdf install nodejs 18.6.0 # Change this to LTS
-asdf global nodejs 18.6.0 # Change this to LTS
+asdf install nodejs 18.16.1 # Change this to LTS
+asdf global nodejs 18.16.1 # Change this to LTS
 $SHELL
 ```
 
