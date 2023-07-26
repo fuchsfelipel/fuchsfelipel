@@ -19,7 +19,7 @@ git config --global alias.br branch
 git config --global alias.ci commit
 git config --global core.editor 'code --wait'
 
-## Setup ASDF
+## Setup ASDF for NodeJS
 1. Install ASDF `git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.12.0`
 
 2. Install the the NodeJS Plugin
@@ -33,6 +33,19 @@ $SHELL
 3. Confirm you're running the correct Node version `node -v`
 
 4. Globally install Yarn: `npm install -g yarn`
+
+## Install Ruby with ASDF
+1. Install apt dependencies:
+```shell
+sudo apt-get update
+sudo apt-get install git-core zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev software-properties-common libffi-dev
+```
+2. `asdf plugin add ruby`
+3. `asdf install ruby latest`
+4. `asdf global ruby latest`
+5. `gem update --system`
+
+Optional: Install Rails with `gem install rails`
 
 ## Install and Setup ZSH & OhMyZsh (ASDF-Comptabile)
 1. Install ZSH and make it the default:
