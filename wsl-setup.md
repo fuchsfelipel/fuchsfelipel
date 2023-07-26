@@ -54,6 +54,15 @@ Optional: Install Rails with `gem install rails`
 4. `go install github.com/DarthSim/overmind/v2@latest`
 5. Add Go PATH to your `.zshrc` with `export PATH="$(go env GOPATH)/bin:$PATH"`
 
+## Install Minio
+```shell
+wget https://dl.min.io/server/minio/release/linux-amd64/archive/minio_20230718174940.0.0_amd64.deb -O minio.deb
+sudo dpkg -i minio.deb
+
+wget https://dl.min.io/server/minio/release/linux-amd64/archive/minio_20230718174940.0.0_amd64.deb -O minio.deb
+sudo dpkg -i minio.deb
+```
+
 ## Install and Setup ZSH & OhMyZsh (ASDF-Comptabile)
 1. Install ZSH and make it the default:
 ```shell
