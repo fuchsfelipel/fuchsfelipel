@@ -38,7 +38,7 @@ $SHELL
 1. Install apt dependencies:
 ```shell
 sudo apt-get update
-sudo apt-get install git-core zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev software-properties-common libffi-dev libpq-dev
+sudo apt-get install git-core zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev software-properties-common libffi-dev libpq-dev uuid-dev
 ```
 2. `asdf plugin add ruby`
 3. `asdf install ruby latest`
@@ -46,6 +46,13 @@ sudo apt-get install git-core zlib1g-dev build-essential libssl-dev libreadline-
 5. `gem update --system`
 
 Optional: Install Rails with `gem install rails`
+
+## Install Overmind
+1. `sudo apt-get install tmux`
+2. `asdf plugin add go` 
+3. `asdf install go latest`
+4. `go install github.com/DarthSim/overmind/v2@latest`
+5. Add Go PATH to your `.zshrc` with `export PATH="$(go env GOPATH)/bin:$PATH"`
 
 ## Install and Setup ZSH & OhMyZsh (ASDF-Comptabile)
 1. Install ZSH and make it the default:
