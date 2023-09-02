@@ -90,6 +90,9 @@ git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/z
 6. On the new Windows Terminal, open Settings, click on Defaults, click Appearance and set Font face to MesloLGS NF.
 4. Restart the terminal with `$SHELL`
 
+## Azure CLI
+`curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash`
+
 ## Setup VSCode
 1. Install the WSL Extention and run the Connect to WSL command 
 
