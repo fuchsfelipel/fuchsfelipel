@@ -24,7 +24,7 @@ git config --global alias.st status
 git config --global alias.co checkout
 git config --global alias.br branch
 git config --global alias.ci commit
-git config --global core.editor 'code --wait'
+git config --global core.editor 'code-insiders --wait'
 ```
 
 ## Setup OhMyPosh
@@ -38,4 +38,4 @@ oh-my-posh init pwsh | Invoke-Expression
 ```
 5. Run `. $PROFILE` to load changes
 
-> Note: on Windows, we need to setup an alias which opens VSCode insiders with `code` instead of `code-insiders`.
+> Note: Open PowerShell as Admin and run `oh-my-posh font install`
