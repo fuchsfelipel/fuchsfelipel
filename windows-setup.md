@@ -16,6 +16,7 @@ Here are the steps I use to setup a brand new WSL2 environment.
 ## Configure Git
 1. Install Git [from here](https://git-scm.com/download/win)
 2. Configure Git:
+```
 git config --global color.ui true
 git config --global user.name "YOUR NAME"
 git config --global user.email "YOUR@EMAIL.com"
@@ -24,7 +25,7 @@ git config --global alias.co checkout
 git config --global alias.br branch
 git config --global alias.ci commit
 git config --global core.editor 'code --wait'
-
+```
 
 ## Setup OhMyPosh
 1. `winget install XP8K0HKJFRXGCK`
