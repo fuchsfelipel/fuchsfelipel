@@ -9,7 +9,6 @@ fi
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 export PATH="/opt/homebrew/opt/icu4c/bin:$PATH"
 export PATH="/opt/homebrew/opt/icu4c/sbin:$PATH"
-export PATH="$(go env GOPATH)/bin:$PATH"
 export PATH="/snap/bin:$PATH"
 
 # Path to your oh-my-zsh installation.
@@ -101,7 +100,7 @@ source $ZSH/oh-my-zsh.sh
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='vim'
 else
-  export EDITOR='code --wait'
+  export EDITOR='code-insiders --wait'
 fi
 
 # Compilation flags
@@ -115,7 +114,6 @@ fi
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias code='code-insiders'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
