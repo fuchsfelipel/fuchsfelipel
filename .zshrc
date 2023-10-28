@@ -109,3 +109,10 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias code="code-insiders"
+
+# Create winhost DNS
+if ! $(cat /etc/hosts | grep -q 'winhost'); then
+  echo 'Adding DNS entry for Windows host in /etc/hosts'
+  echo '\n# Windows host - added via ~/.bashhrc' | sudo tee -a /etc/hosts
+  echo -e "$(grep nameserver /etc/resolv.conf | awk '{print $2, "   winhost"}')" | sudo tee -a /etc/hosts
+fi
