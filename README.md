@@ -5,6 +5,6 @@ Felipe is a Tech Passionate who has been acting as CTO and lead in several softw
 If you're interested in our services don't hesistate to email me!
 
 
-- 🔭 I’m Founder @ AlmostHackers and CTO @ Neurogram
+- 🔭 I’m Founder @ AlmostHackers
 - 💬 Ask me about software for startups
 - 📫 How to reach me: Send me an email!
